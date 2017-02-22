@@ -261,5 +261,5 @@ func Run(category int) {
 		fmt.Printf("%.02f;%s\n", prod.Price, prod.Name)
 	}
 
-	fmt.Printf("Done after %v\n", time.Since(begin))
+	fmt.Printf("Done with %d items after %v\n", prodCount, time.Since(begin))
 }
